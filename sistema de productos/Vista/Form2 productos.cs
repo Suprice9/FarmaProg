@@ -46,11 +46,14 @@ namespace sistema_de_productos
 
         private void btn_buscar_product_Click(object sender, EventArgs e)
         {
+            
+            
             int Id= Convert.ToInt32(txtbox_id_buscar_product.Text);
+            
+            
             string  Presentacion = txtbox_presentacion_buscar_product.Text;
             string Descrip = txtbox_descripcion_buscar_product.Text;
             
-
 
 
             MySqlDataReader reader = null;

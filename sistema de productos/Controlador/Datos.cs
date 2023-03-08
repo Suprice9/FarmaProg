@@ -14,10 +14,7 @@ namespace sistema_de_productos.Controlador
         private string descrip;
         private int stock;
 
-        public int Stock { get => stock; set => stock = value; }
-        public int Id { get => id; set => id = value; }
-        public string Presentacion { get => presentacion; set => presentacion = value; }
-        public string Descrip { get => descrip; set => descrip = value; }
+        
     }
 
   

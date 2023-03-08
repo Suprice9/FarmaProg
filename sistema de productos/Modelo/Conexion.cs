@@ -15,10 +15,10 @@ namespace sistema_de_productos.Modelo
         static string servidor = "localhost";
         static string bd = "farmaprog";
         static string usuario = "root";
-        static string contrasena = "";
+        static string contrasena = "Farmaprog";
         static string puerto = "3306";
 
-        string cadenaConexion = "server=" + servidor + ";" + "port=" + puerto + ";" + "user id=" + usuario + ";" + "contrasena=" + contrasena + ";" + "database=" + bd + ";";
+        string cadenaConexion = "server=" + servidor + ";" + "port=" + puerto + ";" + "user id=" + usuario + ";" + "password=" + contrasena + ";" + "database=" + bd + ";";
         public MySqlConnection establecerConexion()
         {
             try

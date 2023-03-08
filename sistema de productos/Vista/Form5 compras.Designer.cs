@@ -49,12 +49,6 @@
             this.lbl_producto = new System.Windows.Forms.Label();
             this.GB_datosdelproducto = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.productos = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Presentacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Total = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.txt_totalapagar = new System.Windows.Forms.TextBox();
             this.btn_nuevo_compras = new System.Windows.Forms.Button();
@@ -284,49 +278,12 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.id,
-            this.productos,
-            this.Presentacion,
-            this.cantidad,
-            this.Precio,
-            this.Total});
-            this.dataGridView1.Location = new System.Drawing.Point(20, 358);
+            this.dataGridView1.Location = new System.Drawing.Point(33, 351);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(578, 150);
             this.dataGridView1.TabIndex = 2;
-            // 
-            // id
-            // 
-            this.id.HeaderText = "ID";
-            this.id.Name = "id";
-            // 
-            // productos
-            // 
-            this.productos.HeaderText = "Producto";
-            this.productos.Name = "productos";
-            // 
-            // Presentacion
-            // 
-            this.Presentacion.HeaderText = "Presentacion";
-            this.Presentacion.Name = "Presentacion";
-            // 
-            // cantidad
-            // 
-            this.cantidad.HeaderText = "Cantidad";
-            this.cantidad.Name = "cantidad";
-            // 
-            // Precio
-            // 
-            this.Precio.HeaderText = "Precio";
-            this.Precio.Name = "Precio";
-            // 
-            // Total
-            // 
-            this.Total.HeaderText = "Total";
-            this.Total.Name = "Total";
             // 
             // label1
             // 
@@ -456,12 +413,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn productos;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Presentacion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cantidad;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Total;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_totalapagar;
         private System.Windows.Forms.Button btn_nuevo_compras;
