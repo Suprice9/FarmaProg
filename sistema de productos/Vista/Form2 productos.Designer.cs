@@ -33,12 +33,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.txtbox_id_buscar_product = new System.Windows.Forms.TextBox();
             this.txtbox_presentacion_buscar_product = new System.Windows.Forms.TextBox();
             this.txtbox_descripcion_buscar_product = new System.Windows.Forms.TextBox();
-            this.txtbox_stock_buscar_product = new System.Windows.Forms.TextBox();
             this.btn_buscar_product = new System.Windows.Forms.Button();
             this.btn_sucursales = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
@@ -84,7 +82,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(781, 204);
+            this.label3.Location = new System.Drawing.Point(778, 230);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(103, 20);
@@ -95,23 +93,12 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(778, 162);
+            this.label4.Location = new System.Drawing.Point(778, 173);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(114, 20);
             this.label4.TabIndex = 5;
             this.label4.Text = "Presentacion";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(798, 250);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 20);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Stock";
             // 
             // label6
             // 
@@ -135,7 +122,7 @@
             // 
             // txtbox_presentacion_buscar_product
             // 
-            this.txtbox_presentacion_buscar_product.Location = new System.Drawing.Point(902, 166);
+            this.txtbox_presentacion_buscar_product.Location = new System.Drawing.Point(902, 177);
             this.txtbox_presentacion_buscar_product.Margin = new System.Windows.Forms.Padding(2);
             this.txtbox_presentacion_buscar_product.Name = "txtbox_presentacion_buscar_product";
             this.txtbox_presentacion_buscar_product.Size = new System.Drawing.Size(128, 20);
@@ -143,19 +130,11 @@
             // 
             // txtbox_descripcion_buscar_product
             // 
-            this.txtbox_descripcion_buscar_product.Location = new System.Drawing.Point(902, 204);
+            this.txtbox_descripcion_buscar_product.Location = new System.Drawing.Point(899, 230);
             this.txtbox_descripcion_buscar_product.Margin = new System.Windows.Forms.Padding(2);
             this.txtbox_descripcion_buscar_product.Name = "txtbox_descripcion_buscar_product";
             this.txtbox_descripcion_buscar_product.Size = new System.Drawing.Size(128, 20);
             this.txtbox_descripcion_buscar_product.TabIndex = 10;
-            // 
-            // txtbox_stock_buscar_product
-            // 
-            this.txtbox_stock_buscar_product.Location = new System.Drawing.Point(902, 250);
-            this.txtbox_stock_buscar_product.Margin = new System.Windows.Forms.Padding(2);
-            this.txtbox_stock_buscar_product.Name = "txtbox_stock_buscar_product";
-            this.txtbox_stock_buscar_product.Size = new System.Drawing.Size(128, 20);
-            this.txtbox_stock_buscar_product.TabIndex = 11;
             // 
             // btn_buscar_product
             // 
@@ -204,12 +183,10 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btn_sucursales);
             this.Controls.Add(this.btn_buscar_product);
-            this.Controls.Add(this.txtbox_stock_buscar_product);
             this.Controls.Add(this.txtbox_descripcion_buscar_product);
             this.Controls.Add(this.txtbox_presentacion_buscar_product);
             this.Controls.Add(this.txtbox_id_buscar_product);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -217,7 +194,7 @@
             this.Controls.Add(this.data_gv_listadoproduct);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form2_productos";
-            this.Text = "Form2_productos";
+            this.Text = "Productos";
             ((System.ComponentModel.ISupportInitialize)(this.data_gv_listadoproduct)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -230,12 +207,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtbox_id_buscar_product;
         private System.Windows.Forms.TextBox txtbox_presentacion_buscar_product;
         private System.Windows.Forms.TextBox txtbox_descripcion_buscar_product;
-        private System.Windows.Forms.TextBox txtbox_stock_buscar_product;
         private System.Windows.Forms.Button btn_buscar_product;
         private System.Windows.Forms.Button btn_sucursales;
         private System.Windows.Forms.Label label7;

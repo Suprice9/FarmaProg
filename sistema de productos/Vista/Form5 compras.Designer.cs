@@ -73,9 +73,9 @@
             this.GB_datoscompra.Controls.Add(this.label2);
             this.GB_datoscompra.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GB_datoscompra.Location = new System.Drawing.Point(20, 23);
-            this.GB_datoscompra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GB_datoscompra.Margin = new System.Windows.Forms.Padding(2);
             this.GB_datoscompra.Name = "GB_datoscompra";
-            this.GB_datoscompra.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GB_datoscompra.Padding = new System.Windows.Forms.Padding(2);
             this.GB_datoscompra.Size = new System.Drawing.Size(578, 142);
             this.GB_datoscompra.TabIndex = 0;
             this.GB_datoscompra.TabStop = false;
@@ -85,7 +85,7 @@
             // txt_presentacion
             // 
             this.txt_presentacion.Location = new System.Drawing.Point(169, 65);
-            this.txt_presentacion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_presentacion.Margin = new System.Windows.Forms.Padding(2);
             this.txt_presentacion.Name = "txt_presentacion";
             this.txt_presentacion.Size = new System.Drawing.Size(102, 19);
             this.txt_presentacion.TabIndex = 7;
@@ -104,7 +104,7 @@
             // txt_iddatoscompra
             // 
             this.txt_iddatoscompra.Location = new System.Drawing.Point(13, 65);
-            this.txt_iddatoscompra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_iddatoscompra.Margin = new System.Windows.Forms.Padding(2);
             this.txt_iddatoscompra.Name = "txt_iddatoscompra";
             this.txt_iddatoscompra.Size = new System.Drawing.Size(102, 19);
             this.txt_iddatoscompra.TabIndex = 7;
@@ -112,7 +112,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(448, 67);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(102, 19);
             this.textBox3.TabIndex = 8;
@@ -131,7 +131,7 @@
             // txt_comprobante
             // 
             this.txt_comprobante.Location = new System.Drawing.Point(308, 65);
-            this.txt_comprobante.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_comprobante.Margin = new System.Windows.Forms.Padding(2);
             this.txt_comprobante.Name = "txt_comprobante";
             this.txt_comprobante.Size = new System.Drawing.Size(102, 19);
             this.txt_comprobante.TabIndex = 8;
@@ -161,7 +161,7 @@
             // txt_precio
             // 
             this.txt_precio.Location = new System.Drawing.Point(409, 69);
-            this.txt_precio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_precio.Margin = new System.Windows.Forms.Padding(2);
             this.txt_precio.Name = "txt_precio";
             this.txt_precio.Size = new System.Drawing.Size(102, 19);
             this.txt_precio.TabIndex = 10;
@@ -169,7 +169,7 @@
             // txt_stock
             // 
             this.txt_stock.Location = new System.Drawing.Point(247, 105);
-            this.txt_stock.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_stock.Margin = new System.Windows.Forms.Padding(2);
             this.txt_stock.Name = "txt_stock";
             this.txt_stock.Size = new System.Drawing.Size(102, 19);
             this.txt_stock.TabIndex = 9;
@@ -177,7 +177,7 @@
             // txt_producto
             // 
             this.txt_producto.Location = new System.Drawing.Point(247, 49);
-            this.txt_producto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_producto.Margin = new System.Windows.Forms.Padding(2);
             this.txt_producto.Name = "txt_producto";
             this.txt_producto.Size = new System.Drawing.Size(102, 19);
             this.txt_producto.TabIndex = 8;
@@ -185,7 +185,7 @@
             // txt_id
             // 
             this.txt_id.Location = new System.Drawing.Point(13, 47);
-            this.txt_id.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_id.Margin = new System.Windows.Forms.Padding(2);
             this.txt_id.Name = "txt_id";
             this.txt_id.Size = new System.Drawing.Size(102, 19);
             this.txt_id.TabIndex = 7;
@@ -193,7 +193,7 @@
             // txt_concentracion
             // 
             this.txt_concentracion.Location = new System.Drawing.Point(13, 107);
-            this.txt_concentracion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_concentracion.Margin = new System.Windows.Forms.Padding(2);
             this.txt_concentracion.Name = "txt_concentracion";
             this.txt_concentracion.Size = new System.Drawing.Size(102, 19);
             this.txt_concentracion.TabIndex = 6;
@@ -267,9 +267,9 @@
             this.GB_datosdelproducto.Controls.Add(this.lbl_producto);
             this.GB_datosdelproducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GB_datosdelproducto.Location = new System.Drawing.Point(20, 196);
-            this.GB_datosdelproducto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GB_datosdelproducto.Margin = new System.Windows.Forms.Padding(2);
             this.GB_datosdelproducto.Name = "GB_datosdelproducto";
-            this.GB_datosdelproducto.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GB_datosdelproducto.Padding = new System.Windows.Forms.Padding(2);
             this.GB_datosdelproducto.Size = new System.Drawing.Size(578, 142);
             this.GB_datosdelproducto.TabIndex = 1;
             this.GB_datosdelproducto.TabStop = false;
@@ -279,7 +279,7 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(33, 351);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(578, 150);
@@ -301,7 +301,7 @@
             this.txt_totalapagar.BackColor = System.Drawing.Color.Chartreuse;
             this.txt_totalapagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_totalapagar.Location = new System.Drawing.Point(429, 522);
-            this.txt_totalapagar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_totalapagar.Margin = new System.Windows.Forms.Padding(2);
             this.txt_totalapagar.Name = "txt_totalapagar";
             this.txt_totalapagar.Size = new System.Drawing.Size(170, 28);
             this.txt_totalapagar.TabIndex = 11;
@@ -310,7 +310,7 @@
             // 
             this.btn_nuevo_compras.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_nuevo_compras.Location = new System.Drawing.Point(739, 440);
-            this.btn_nuevo_compras.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_nuevo_compras.Margin = new System.Windows.Forms.Padding(2);
             this.btn_nuevo_compras.Name = "btn_nuevo_compras";
             this.btn_nuevo_compras.Size = new System.Drawing.Size(108, 47);
             this.btn_nuevo_compras.TabIndex = 12;
@@ -321,7 +321,7 @@
             // 
             this.btn_guardar_compras.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_guardar_compras.Location = new System.Drawing.Point(862, 440);
-            this.btn_guardar_compras.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_guardar_compras.Margin = new System.Windows.Forms.Padding(2);
             this.btn_guardar_compras.Name = "btn_guardar_compras";
             this.btn_guardar_compras.Size = new System.Drawing.Size(108, 47);
             this.btn_guardar_compras.TabIndex = 13;
@@ -332,7 +332,7 @@
             // 
             this.btn_cancelar_compras.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cancelar_compras.Location = new System.Drawing.Point(983, 440);
-            this.btn_cancelar_compras.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_cancelar_compras.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cancelar_compras.Name = "btn_cancelar_compras";
             this.btn_cancelar_compras.Size = new System.Drawing.Size(108, 47);
             this.btn_cancelar_compras.TabIndex = 14;
@@ -343,7 +343,7 @@
             // 
             this.btn_menu_principal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_menu_principal.Location = new System.Drawing.Point(1002, 10);
-            this.btn_menu_principal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_menu_principal.Margin = new System.Windows.Forms.Padding(2);
             this.btn_menu_principal.Name = "btn_menu_principal";
             this.btn_menu_principal.Size = new System.Drawing.Size(108, 47);
             this.btn_menu_principal.TabIndex = 15;
@@ -355,7 +355,7 @@
             // 
             this.btn_imprimir_factura.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_imprimir_factura.Location = new System.Drawing.Point(739, 500);
-            this.btn_imprimir_factura.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_imprimir_factura.Margin = new System.Windows.Forms.Padding(2);
             this.btn_imprimir_factura.Name = "btn_imprimir_factura";
             this.btn_imprimir_factura.Size = new System.Drawing.Size(352, 47);
             this.btn_imprimir_factura.TabIndex = 16;
@@ -377,9 +377,9 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.GB_datosdelproducto);
             this.Controls.Add(this.GB_datoscompra);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form5_compras";
-            this.Text = "Form5_compras";
+            this.Text = "Compra";
             this.GB_datoscompra.ResumeLayout(false);
             this.GB_datoscompra.PerformLayout();
             this.GB_datosdelproducto.ResumeLayout(false);

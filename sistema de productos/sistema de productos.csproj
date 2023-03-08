@@ -97,6 +97,9 @@
     <EmbeddedResource Include="Vista\Form3 clientes.resx">
       <DependentUpon>Form3 clientes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Form4 ventas.resx">
+      <DependentUpon>Form4 ventas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vista\Form5 compras.resx">
       <DependentUpon>Form5 compras.cs</DependentUpon>
     </EmbeddedResource>

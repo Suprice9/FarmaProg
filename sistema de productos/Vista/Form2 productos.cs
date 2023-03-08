@@ -53,8 +53,7 @@ namespace sistema_de_productos
             
             string  Presentacion = txtbox_presentacion_buscar_product.Text;
             string Descrip = txtbox_descripcion_buscar_product.Text;
-            
-
+         
 
             MySqlDataReader reader = null;
 
