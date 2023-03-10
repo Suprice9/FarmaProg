@@ -57,7 +57,9 @@ namespace sistema_de_productos
 
             MySqlDataReader reader = null;
 
-            MySqlCommand cmd = new MySqlCommand("select * from producto  where codigo = '" + Id + "'or nombreproduc = '" + Presentacion + "'",conexion.establecerConexion());
+            string consulta = ("select * from producto  where codigo = '" + Id + "'or nombreproduc = '" + Presentacion + "'");
+
+            MySqlCommand cmd = new MySqlCommand(consulta, conexion.establecerConexion());
 
             MySqlDataAdapter adaptador = new MySqlDataAdapter();
             adaptador.SelectCommand = cmd;

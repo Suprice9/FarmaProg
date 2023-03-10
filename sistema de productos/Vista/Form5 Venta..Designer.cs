@@ -51,7 +51,6 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.txt_totalapagar = new System.Windows.Forms.TextBox();
-            this.btn_nuevo_compras = new System.Windows.Forms.Button();
             this.btn_guardar_compras = new System.Windows.Forms.Button();
             this.btn_cancelar_compras = new System.Windows.Forms.Button();
             this.btn_menu_principal = new System.Windows.Forms.Button();
@@ -79,7 +78,7 @@
             this.GB_datoscompra.Size = new System.Drawing.Size(578, 142);
             this.GB_datoscompra.TabIndex = 0;
             this.GB_datoscompra.TabStop = false;
-            this.GB_datoscompra.Text = "Datos de la compra";
+            this.GB_datoscompra.Text = "Datos de Venta";
             this.GB_datoscompra.Enter += new System.EventHandler(this.GB_datoscompra_Enter);
             // 
             // txt_presentacion
@@ -300,27 +299,16 @@
             // 
             this.txt_totalapagar.BackColor = System.Drawing.Color.Chartreuse;
             this.txt_totalapagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_totalapagar.Location = new System.Drawing.Point(429, 522);
+            this.txt_totalapagar.Location = new System.Drawing.Point(441, 520);
             this.txt_totalapagar.Margin = new System.Windows.Forms.Padding(2);
             this.txt_totalapagar.Name = "txt_totalapagar";
             this.txt_totalapagar.Size = new System.Drawing.Size(170, 28);
             this.txt_totalapagar.TabIndex = 11;
             // 
-            // btn_nuevo_compras
-            // 
-            this.btn_nuevo_compras.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_nuevo_compras.Location = new System.Drawing.Point(739, 440);
-            this.btn_nuevo_compras.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_nuevo_compras.Name = "btn_nuevo_compras";
-            this.btn_nuevo_compras.Size = new System.Drawing.Size(108, 47);
-            this.btn_nuevo_compras.TabIndex = 12;
-            this.btn_nuevo_compras.Text = "Nuevo";
-            this.btn_nuevo_compras.UseVisualStyleBackColor = true;
-            // 
             // btn_guardar_compras
             // 
             this.btn_guardar_compras.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_guardar_compras.Location = new System.Drawing.Point(862, 440);
+            this.btn_guardar_compras.Location = new System.Drawing.Point(739, 436);
             this.btn_guardar_compras.Margin = new System.Windows.Forms.Padding(2);
             this.btn_guardar_compras.Name = "btn_guardar_compras";
             this.btn_guardar_compras.Size = new System.Drawing.Size(108, 47);
@@ -331,7 +319,7 @@
             // btn_cancelar_compras
             // 
             this.btn_cancelar_compras.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_cancelar_compras.Location = new System.Drawing.Point(983, 440);
+            this.btn_cancelar_compras.Location = new System.Drawing.Point(860, 436);
             this.btn_cancelar_compras.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cancelar_compras.Name = "btn_cancelar_compras";
             this.btn_cancelar_compras.Size = new System.Drawing.Size(108, 47);
@@ -371,7 +359,6 @@
             this.Controls.Add(this.btn_menu_principal);
             this.Controls.Add(this.btn_cancelar_compras);
             this.Controls.Add(this.btn_guardar_compras);
-            this.Controls.Add(this.btn_nuevo_compras);
             this.Controls.Add(this.txt_totalapagar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
@@ -379,7 +366,8 @@
             this.Controls.Add(this.GB_datoscompra);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form5_compras";
-            this.Text = "Compra";
+            this.Text = "Venta";
+            this.Load += new System.EventHandler(this.Form5_compras_Load);
             this.GB_datoscompra.ResumeLayout(false);
             this.GB_datoscompra.PerformLayout();
             this.GB_datosdelproducto.ResumeLayout(false);
@@ -415,7 +403,6 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_totalapagar;
-        private System.Windows.Forms.Button btn_nuevo_compras;
         private System.Windows.Forms.Button btn_guardar_compras;
         private System.Windows.Forms.Button btn_cancelar_compras;
         private System.Windows.Forms.Button btn_menu_principal;

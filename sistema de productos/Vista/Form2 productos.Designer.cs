@@ -74,9 +74,9 @@
             this.label2.Location = new System.Drawing.Point(809, 131);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(23, 20);
+            this.label2.Size = new System.Drawing.Size(25, 20);
             this.label2.TabIndex = 3;
-            this.label2.Text = "id";
+            this.label2.Text = "Id";
             // 
             // label3
             // 
@@ -96,9 +96,9 @@
             this.label4.Location = new System.Drawing.Point(778, 173);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(114, 20);
+            this.label4.Size = new System.Drawing.Size(71, 20);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Presentacion";
+            this.label4.Text = "Nombre";
             // 
             // label6
             // 

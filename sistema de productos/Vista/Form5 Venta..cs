@@ -27,5 +27,10 @@ namespace sistema_de_productos
             Form formulario = new Form1();
             formulario.Show();
         }
+
+        private void Form5_compras_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
